@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const { uri } = require('./config/db.config');
 
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const exerciseSchema = new mongoose.Schema({
   username: {

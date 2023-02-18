@@ -106,7 +106,7 @@ app.get('/api/users/:id/logs', (req, res) => {
 });
 
 
-const port = process.env.PORT || 3000;
+const port = process.env.NODE_LOCAL_PORT || 3000;
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
