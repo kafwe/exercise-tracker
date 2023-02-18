@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const userController = require('./userController');
-const exerciseController = require('./exerciseController');
+const userController = require('./controllers/userController');
+const exerciseController = require('./controllers/exerciseController');
 require('dotenv').config();
 
 

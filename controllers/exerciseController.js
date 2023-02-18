@@ -1,4 +1,4 @@
-const Exercise = require('./exercise');
+const Exercise = require('../models/exercise');
 
 createExercise = (exercise, done) => {
   const exerciseToCreate = new Exercise(exercise);
