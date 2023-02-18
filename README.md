@@ -9,7 +9,8 @@ The API has the following endpoints:
 - `POST /api/users`: creates a new user account
 - `GET /api/users`: retrieves a list of all users
 - `POST /api/users/:id/exercises`: logs a new exercise for a specific user
-- `GET /api/users/:id/logs`: retrieves the exercise history for a specific user. The exercise logs can be filtered using the following optional query parameters: - `from`: Retrieve exercises starting from this date (YYYY-MM-DD)
+- `GET /api/users/:id/logs`: retrieves the exercise history for a specific user. The exercise logs can be filtered using the following optional query parameters: 
+  - `from`: Retrieve exercises starting from this date (YYYY-MM-DD)
   - `to`: Retrieve exercises up to and including this date (YYYY-MM-DD)
   - `limit`: Limit the number of exercises returned
 
